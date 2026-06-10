@@ -22,7 +22,7 @@ if ($_POST) {
     <input name="documento" class="form-control mb-2" placeholder="Documento" required>
     <input name="ficha" class="form-control mb-2" placeholder="Ficha" required>
     <input name="programa" class="form-control mb-2" placeholder="Programa" required>
-    <button class="btn btn-primary">Guardar</button>
+    <button class="btn btn-primary">Guardar.</button>
 </form>
 
 </div>
