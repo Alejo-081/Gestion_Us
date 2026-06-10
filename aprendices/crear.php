@@ -18,7 +18,8 @@ if ($_POST) {
 <h3>Registrar Aprendiz</h3>
 
 <form method="POST">
-    <input name="nombre" class="form-control mb-2" placeholder="Nombre" required>
+    <input name="nombre" class
+    ="form-control mb-2" placeholder="Nombre" required>
     <input name="documento" class="form-control mb-2" placeholder="Documento" required>
     <input name="ficha" class="form-control mb-2" placeholder="Ficha" required>
     <input name="programa" class="form-control mb-2" placeholder="Programa" required>
