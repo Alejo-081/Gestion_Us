@@ -1,0 +1,38 @@
+[
+    {
+        "activo": "Base de Datos",
+        "amenaza": "Robo de informaci\u00f3n",
+        "vulnerabilidad": "Contrase\u00f1as d\u00e9biles",
+        "riesgo": "P\u00e9rdida o filtraci\u00f3n de informaci\u00f3n confidencial",
+        "probabilidad": "Baja",
+        "impacto": "Alto",
+        "tratamiento": "fortalecer la verificacion y seguridad de datos"
+    },
+    {
+        "activo": "Credenciales de acceso",
+        "amenaza": "Acceso no autorizado",
+        "vulnerabilidad": "Mala gesti\u00f3n de usuarios",
+        "riesgo": "Suplantaci\u00f3n de identidad y acceso indebido a cuentas",
+        "probabilidad": "Media",
+        "impacto": "Medio",
+        "tratamiento": "Implementar control de acceso seguro, fortalecer la gesti\u00f3n de usuarios y utilizar contrase\u00f1as m\u00e1s seguras."
+    },
+    {
+        "activo": "Servidor institucional",
+        "amenaza": "Ca\u00edda del sistema",
+        "vulnerabilidad": "Falta de mantenimiento",
+        "riesgo": "Interrupci\u00f3n del servicio y p\u00e9rdida de disponibilidad del sistema",
+        "probabilidad": "Alta",
+        "impacto": "Medio",
+        "tratamiento": "Realizar mantenimiento preventivo peri\u00f3dico, monitorear el servidor y crear copias de seguridad para evitar fallos del sistema."
+    },
+    {
+        "activo": "Observaciones acad\u00e9micas",
+        "amenaza": "Modificaci\u00f3n indebida",
+        "vulnerabilidad": "Falta de control de permisos",
+        "riesgo": "Alteraci\u00f3n no autorizada de las observaciones acad\u00e9micas",
+        "probabilidad": "Media",
+        "impacto": "Medio",
+        "tratamiento": "Implementar control de permisos por roles, validar accesos de usuarios y registrar cambios realizados en el sistema."
+    }
+]
