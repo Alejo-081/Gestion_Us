@@ -1,0 +1,33 @@
+name: Validacion inicial
+
+on:
+  push:
+    branches: [ "main" ]
+
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Listar archivos del proyecto
+        run: ls -la
+
+      - name: Verificar estructura del proyecto
+        run: |
+          test -f README.md
+          test -d aprendices
+          test -d auth
+          test -d config
+          test -d includes
+          test -d instructores
+          test -d reportes
+          test -d Riesgos
+
+      - name: Confirmar validacion
+        run: echo "Validacion basica ejecutada correctamente"
